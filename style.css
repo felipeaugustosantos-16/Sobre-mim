@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nome {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline ;
+}
+
+img {
+    width: 175px;
+    height: 150px;
+    border-radius: 100%;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    background-color: cornflowerblue;
+    padding: 15px;
+    border: 2px solid black;
+    background: linear-gradient(
+        135deg,
+    cornsilk,
+    blue,
+    cornflowerblue);
+}
+
+.banner2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    padding: 15px;
+}
+
+.Meunome {
+    padding: 20px;
+}
+
+.cinzel-decorative-regular {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cinzel-decorative-bold {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cinzel-decorative-black {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.Primeiro {
+
+}
+
+#augusto {
+    color: cornflowerblue;
+    display: flex;
+}
+
+.projetos {
+    padding: 25px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.basic-regular {
+    font-family: "Basic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
